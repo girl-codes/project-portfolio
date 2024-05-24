@@ -128,3 +128,118 @@ p {
     text-align: center;
   }
 }
+.projects-hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: var(--primary-color);
+  margin-bottom: -50px;
+}
+.project-description {
+  margin-left: 150px;
+}
+.project-pic {
+  margin-right: 150px;
+  margin-left: 100px;
+}
+.project-pic img {
+  border-radius: 20px;
+  border: 2px solid none;
+}
+.projects-overview {
+  font-size: 20px;
+  font-family: var(--default-font-family);
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+.tools {
+  background: none;
+  border-radius: 10px;
+  color: var(--secondary-color);
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 0px;
+}
+.name-of-project {
+  font-family: var(--default-font-family);
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+}
+h3 {
+  font-family: var(--default-font-family);
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+}
+.launch-button {
+  background: var(--secondary-color);
+  border-radius: 10px;
+  color: white;
+  padding: 15px;
+  margin: 20px;
+  margin-left: 0px;
+  font-size: 18px;
+  text-decoration: none;
+}
+.launch-button a {
+  text-decoration: none;
+  color: white;
+}
+@media (max-width: 990px) {
+  h1 {
+    font-size: 50px;
+  }
+  .about-section {
+    padding: 0;
+  }
+  .about-section-content {
+    text-align: center;
+    line-height: 25px;
+  }
+  .about-me {
+    font-size: 15px;
+  }
+  .komal {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .projects-page-name {
+    font-size: 45px;
+  }
+  .projects-overview {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .projects-hero {
+    padding: 50px;
+  }
+  .project-description {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    display: block;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .project-pic {
+    text-align: center;
+    display: block;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .project-pic img {
+    border-radius: 20px;
+    border: none;
+  }
+  .name-of-project {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+}
