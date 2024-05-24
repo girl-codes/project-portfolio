@@ -77,12 +77,12 @@ p {
   object-fit: cover;
   border-radius: 5px;
 }
-@media (max-width: 576px) {
+@media (max-width: 990px) {
   .girl-codes {
     width: 400px;
   }
   h1 {
-    font-size: 60px;
+    font-size: 90px;
   }
   .project-title {
     font-size: 50px;
@@ -96,12 +96,12 @@ p {
   line-height: 1.5;
 }
 .about-me {
-  font-size: 20px;
+  font-size: 15px;
 }
 .komal img {
   border-radius: 10px;
   width: 400px;
-  height: 400px;
+  height: 600px;
   object-fit: cover;
 }
 .komal {
@@ -110,7 +110,7 @@ p {
 }
 @media (max-width: 990px) {
   h1 {
-    font-size: 50px;
+    font-size: 60px;
   }
   .about-section {
     padding: 0;
@@ -120,7 +120,7 @@ p {
     line-height: 25px;
   }
   .about-me {
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .komal {
@@ -164,11 +164,13 @@ p {
 }
 .name-of-project {
   font-family: var(--default-font-family);
+  text-decoration: underline;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
   font-size: 40px;
 }
+
 h3 {
   font-family: var(--default-font-family);
   font-optical-sizing: auto;
@@ -210,7 +212,7 @@ h3 {
     text-align: center;
   }
   .projects-page-name {
-    font-size: 45px;
+    font-size: 55px;
   }
   .projects-overview {
     font-size: 18px;
@@ -219,6 +221,7 @@ h3 {
   .projects-hero {
     padding: 50px;
   }
+
   .project-description {
     font-size: 16px;
     line-height: 1.5;
@@ -227,6 +230,7 @@ h3 {
     margin-right: 10px;
     margin-left: 10px;
   }
+
   .project-pic {
     text-align: center;
     display: block;
@@ -239,9 +243,11 @@ h3 {
   }
   .name-of-project {
     font-size: 30px;
+    font-weight: 600;
   }
   h3 {
     font-size: 25px;
+    font-weight: 600;
   }
 }
 .email {
@@ -314,4 +320,10 @@ footer .call-to-action {
   padding: 10px;
   font-size: 16px;
   text-decoration: none;
+}
+.about-the-project {
+  text-align: left;
+}
+.imp-link {
+  color: var(--secondary-color);
 }
