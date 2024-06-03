@@ -89,29 +89,6 @@ p {
 .intro {
   text-align: center;
 }
-@media (max-width: 990px) {
-  .girl-codes {
-    width: 400px;
-  }
-  h1 {
-    font-size: 60px;
-  }
-  .project-title {
-    font-size: 50px;
-  }
-  .hero h2 {
-    font-size: 35px;
-  }
-  .button {
-    padding: 10px;
-    font-size: 14px;
-  }
-  .col-md-4 {
-    flex: 0 0 100%;
-    max-width: 100%;
-    margin-bottom: 20px;
-  }
-}
 
 .about-section {
   padding: 150px 150px;
@@ -136,7 +113,7 @@ p {
 
 @media (max-width: 990px) {
   .about-section {
-    padding: 0;
+    padding: 0 15px;
   }
   .about-section-content {
     text-align: center;
@@ -313,4 +290,34 @@ footer .call-to-action {
 .footer-text {
   text-align: center;
   margin: 20px;
+}
+
+@media (max-width: 990px) {
+  .girl-codes {
+    width: 400px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  .project-title {
+    font-size: 50px;
+  }
+  .hero h2 {
+    font-size: 35px;
+  }
+  .button {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .project-description {
+    margin-left: 15px;
+  }
+  .projects-section .row {
+    margin: 0;
+  }
 }
